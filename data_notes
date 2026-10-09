@@ -1,0 +1,13 @@
+Number of neurons: 5325
+Number of time points: 13500, each trial is 300 time points, so there are a total of 45 trials
+
+roiid: A single row, 
+trlLST: What exactly was given as odor in the trial
+ntrl: Number of trials
+ncnd: Number of conditions
+nstm: Number of stimuli
+nfrm: Number of frame per trial
+nroi: Number of ROIs
+xy: Dont know
+xyzreg: XYZ positions
+exp: Experiment stuff, maybe not needed so far

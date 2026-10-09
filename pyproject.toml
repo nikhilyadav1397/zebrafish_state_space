@@ -1,0 +1,34 @@
+[project]
+name = "zebrafish-project"
+version = "0.1.0"
+description = "Analysis and spike inference for zebrafish calcium-imaging data"
+readme = "README.md"
+authors = [
+    { name = "Nikhil Yadav", email = "nikhil.yadav@stud.uni-goettingen.de" },
+]
+requires-python = ">=3.11"
+dependencies = [
+    "cascadetorch",
+    "h5py",
+    "matplotlib",
+    "numpy",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "pip>=26.2.1",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.9.1",
+    "scipy",
+    "torch",
+]
+
+[project.scripts]
+zebrafish-project = "zebrafish_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+cascadetorch = { path = "external/CascadeTorch", editable = true }
+
+

@@ -1,0 +1,3 @@
+[submodule "external/CascadeTorch"]
+	path = external/CascadeTorch
+	url = https://github.com/PTRRupprecht/CascadeTorch.git
